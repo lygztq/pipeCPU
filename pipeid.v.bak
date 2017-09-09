@@ -1,0 +1,5 @@
+module pipeid( mwreg,mrn,ern,ewreg,em2reg,mm2reg,dpc4,inst, 
+							wrn,wdi,ealu,malu,mmo,wwreg,clock,resetn, 
+							bpc,jpc,pcsource,wpcir,dwreg,dm2reg,dwmem,daluc, 
+							daluimm,da,db,dimm,drn,dshift,djal);
+endmodule

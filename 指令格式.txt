@@ -1,0 +1,18 @@
+RÐÍ 6op 5rs 5rt 5rd 5shamt 6func
+    [31:26] op
+    [25:21] rs
+    [20:16] rt
+    [15:11] rd
+    [10:6] shamt
+    [5:0] func
+
+IÐÍ 6op 5rs 5rt 16const
+    [31:26] op
+    [25:21] rs
+    [20:16] rt
+    [15:0] const
+
+JÐÍ 6op 26addr
+    [31:26] op
+    [25:0] addr
+

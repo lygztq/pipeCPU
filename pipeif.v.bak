@@ -1,0 +1,3 @@
+module pipeif(pcsource,pc,bpc,da,jpc,npc,pc4,ins,mem_clock);
+	input 
+endmodule

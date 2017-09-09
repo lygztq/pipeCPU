@@ -1,0 +1,229 @@
+# Reading D:/Quartus II/modelsim_ase/tcl/vsim/pref.tcl 
+# do pipeCPU_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Quartus II\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/lpm_rom_irom.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_rom_irom
+# 
+# Top level modules:
+# 	lpm_rom_irom
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/lpm_ram_dq_dram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_ram_dq_dram
+# 
+# Top level modules:
+# 	lpm_ram_dq_dram
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipeCPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipelined_computer
+# -- Compiling module BCD
+# -- Compiling module pipeCPU
+# 
+# Top level modules:
+# 	pipeCPU
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/mux4x32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4x32
+# 
+# Top level modules:
+# 	mux4x32
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/mux2x32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2x32
+# 
+# Top level modules:
+# 	mux2x32
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/mux2x5.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2x5
+# 
+# Top level modules:
+# 	mux2x5
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipepc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipepc
+# -- Compiling module dffe32
+# 
+# Top level modules:
+# 	pipepc
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipeif.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeif
+# -- Compiling module adder
+# -- Compiling module instmem
+# 
+# Top level modules:
+# 	pipeif
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipeir.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeir
+# 
+# Top level modules:
+# 	pipeir
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipeid.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeid
+# -- Compiling module bubble
+# -- Compiling module divide_inst
+# -- Compiling module fw
+# -- Compiling module equ
+# 
+# Top level modules:
+# 	pipeid
+# 	bubble
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipe_cu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipe_cu
+# 
+# Top level modules:
+# 	pipe_cu
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipedereg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipedereg
+# 
+# Top level modules:
+# 	pipedereg
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipeexe.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeexe
+# -- Compiling module add4
+# 
+# Top level modules:
+# 	pipeexe
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipeemreg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeemreg
+# 
+# Top level modules:
+# 	pipeemreg
+# Load canceled
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipemem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipemem
+# -- Compiling module io_in
+# -- Compiling module io_out
+# 
+# Top level modules:
+# 	pipemem
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU {D:/Quartus II/projects/pipeCPU/pipemwreg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipemwreg
+# 
+# Top level modules:
+# 	pipemwreg
+# 
+# vlog -vlog01compat -work work +incdir+D:/Quartus\ II/projects/pipeCPU/simulation/modelsim {D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeCPU_vlg_tst
+# 
+# Top level modules:
+# 	pipeCPU_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  pipeCPU_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps pipeCPU_vlg_tst 
+# Loading D:\Quartus II\modelsim_ase\win32aloem/../win32aloem/convert_hex2ver.dll
+# Loading work.pipeCPU_vlg_tst
+# Loading work.pipeCPU
+# Loading work.BCD
+# Loading work.pipelined_computer
+# Loading work.pipepc
+# Loading work.dffe32
+# Loading work.pipeif
+# Loading work.adder
+# Loading work.mux4x32
+# Loading work.instmem
+# Loading work.lpm_rom_irom
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.divide_inst
+# Loading work.mux2x5
+# Loading work.fw
+# Loading work.pipe_cu
+# Loading work.equ
+# Loading work.regfile
+# Loading work.pipedereg
+# Loading work.pipeexe
+# Loading work.add4
+# Loading work.mux2x32
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemem
+# Loading work.io_in
+# Loading work.io_out
+# Loading work.lpm_ram_dq_dram
+# Loading work.pipemwreg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0resetn=1 clk =1
+#               125000out_port = xxxxx
+vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -L 220model -L altera_mf -L sgate -voptargs=\"+acc\" -t 1ps work.pipeCPU_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -L 220model -L altera_mf -L sgate -voptargs=\"+acc\" -t 1ps work.pipeCPU_vlg_tst 
+# Loading D:\Quartus II\modelsim_ase\win32aloem/../win32aloem/convert_hex2ver.dll
+# Loading work.pipeCPU_vlg_tst
+# Loading work.pipeCPU
+# Loading work.BCD
+# Loading work.pipelined_computer
+# Loading work.pipepc
+# Loading work.dffe32
+# Loading work.pipeif
+# Loading work.adder
+# Loading work.mux4x32
+# Loading work.instmem
+# Loading work.lpm_rom_irom
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.divide_inst
+# Loading work.mux2x5
+# Loading work.fw
+# Loading work.pipe_cu
+# Loading work.equ
+# Loading work.regfile
+# Loading work.pipedereg
+# Loading work.pipeexe
+# Loading work.add4
+# Loading work.mux2x32
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemem
+# Loading work.io_in
+# Loading work.io_out
+# Loading work.lpm_ram_dq_dram
+# Loading work.pipemwreg
+add wave -position insertpoint  \
+sim:/pipeCPU_vlg_tst/clock
+add wave -position insertpoint  \
+sim:/pipeCPU_vlg_tst/i1/pc
+run -all
+#                    0resetn=1 clk =1
+#               125000out_port = xxxxx
+run
+# WARNING: No extended dataflow license exists

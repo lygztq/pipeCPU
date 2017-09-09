@@ -1,0 +1,25 @@
+module pipelined_computer(resetn,clock,mem_clock,pc,
+									inst,ealu,malu,walu);
+	input resetn,clock,mem_clock;
+	//定义整个计算机 module 和外界交互的输入信号，包括复位信号 resetn、时钟信号 clock、 
+	//以及一个和 clock 同频率但反相的 mem_clock 信号。mem_clock 用于指令同步 ROM 和 
+	//数据同步 RAM 使用，其波形需要有别于实验一。 
+	//这些信号可以用作仿真验证时的输出观察信号。 
+	output [31:0] pc,inst,ealu,malu,walu;//用于仿真
+	wire [31:0] bpc,jpc,npc,pc4,ins,inst;//IF取指令阶段
+	wire [31:0] dpc4,da,db,dim;//ID译码阶段
+	wire [31:0] epc4,ea,eb,eimm;//EXE指令运行阶段
+	wire [31:0] mb,mmo;//MEM访问数据阶段
+	wire [31:0] wmo,wdi//WB回写寄存器阶段
+	wire [4:0] drn,ern0,ern,mrn,wrn;//模块间互连，通过流水线寄存器传递结果寄存器号的信号线，寄存器号（32个寄存器）为5bit
+	wire [3:0] daluc,ealuc;//ID阶段向IF阶段模块传递的aluc控制信号,4bit
+	wire [1:0] pcsource//CU模块向IF阶段传递的PC选择信号，2bit
+	wire wpcir;//CU模块发出的控制流水线停顿的控制信号，使PC和IF/ID流水线寄存器保持不变
+	wire dwreg,dm2reg,dwmem,daluimm,dshift,djal; //ID阶段产生，需要向后传递的信号
+	wire ewreg,em2reg,ewmem,ealuimm,eshift,ejal; //来自于ID/EXE流水线寄存器，EXE阶段使用或向后传递的信号
+	wire mwreg,mm2reg,mwmem;//来自于EXE/MEM流水线寄存器，MEM阶段使用，或需要向后传递的信号
+	wire wwreg,wm2reg; //来自于MEM/WB流水线寄存器，WB阶段使用的信号
+	
+	pipepc prog_cnt(npc,w)
+									
+endmodule

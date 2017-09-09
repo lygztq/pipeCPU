@@ -1,0 +1,628 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Quartus II\projects\pipeCPU\simulation\modelsim
+vadd4
+IaYj9H7Z;M[b]@0Tj:6o7S3
+VG;_3Ue2Vc3bWR_WCamh<N3
+Z1 dD:\Quartus II\projects\pipeCPU\simulation\modelsim
+Z2 w1495635762
+Z3 8D:/Quartus II/projects/pipeCPU/pipeexe.v
+Z4 FD:/Quartus II/projects/pipeCPU/pipeexe.v
+L0 22
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1495636691.481000
+Z7 !s107 D:/Quartus II/projects/pipeCPU/pipeexe.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipeexe.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+D:/Quartus II/projects/pipeCPU} -O0
+!i10b 1
+!s100 C9cV=ElkNl5TUC@f12PPd3
+!s85 0
+!s101 -O0
+vadder
+I>WBBT_WBYO;kzi_`8lF`a2
+VaL_N7XWh@L3QZjV[3QPOD2
+R1
+Z11 w1495459080
+Z12 8D:/Quartus II/projects/pipeCPU/pipeif.v
+Z13 FD:/Quartus II/projects/pipeCPU/pipeif.v
+L0 16
+R5
+r1
+31
+Z14 !s108 1495636689.916000
+Z15 !s107 D:/Quartus II/projects/pipeCPU/pipeif.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipeif.v|
+R9
+R10
+!i10b 1
+!s100 aNOJPVmLY0Wce7Z5WDHQO0
+!s85 0
+!s101 -O0
+valu
+I@f7>Z1dIzz_fn?JRI[@aD3
+V7WhcNChHE10k:fH6QanEO0
+R1
+w1495436395
+8D:/Quartus II/projects/pipeCPU/alu.v
+FD:/Quartus II/projects/pipeCPU/alu.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 h=8dRG4;5]Z]YKOg[BHdC1
+!s85 0
+!s108 1495636688.494000
+!s107 D:/Quartus II/projects/pipeCPU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/alu.v|
+!s101 -O0
+vBCD
+IdKB[k<7FzQk2dYloQbk@32
+V=[K>CfX;_nF7hlJJCB<ko0
+R1
+Z17 w1495633500
+Z18 8D:/Quartus II/projects/pipeCPU/pipeCPU.v
+Z19 FD:/Quartus II/projects/pipeCPU/pipeCPU.v
+L0 72
+R5
+r1
+31
+Z20 !s108 1495636688.135000
+Z21 !s107 D:/Quartus II/projects/pipeCPU/pipeCPU.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipeCPU.v|
+R9
+R10
+n@b@c@d
+!i10b 1
+!s100 l_PLa<[2kn07QEoQI70JO2
+!s85 0
+!s101 -O0
+vbubble
+IaChHN4dOhjk:=l[n2oG9g1
+VfFkdCnJ`S[WYHz7nkX3a?0
+R1
+R17
+Z23 8D:/Quartus II/projects/pipeCPU/pipeid.v
+Z24 FD:/Quartus II/projects/pipeCPU/pipeid.v
+L0 53
+R5
+r1
+31
+Z25 !s108 1495636690.591000
+Z26 !s107 D:/Quartus II/projects/pipeCPU/pipeid.v|
+Z27 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipeid.v|
+R9
+R10
+!i10b 1
+!s100 NMYWMWCh>`@ko^Mlco:Dg0
+!s85 0
+!s101 -O0
+vdffe32
+I^OJ;>O@bA`kEJ?DIz2bDd2
+V6]Tk:7m18<;Eoi?;I3VNB3
+R1
+Z28 w1495636676
+Z29 8D:/Quartus II/projects/pipeCPU/pipepc.v
+Z30 FD:/Quartus II/projects/pipeCPU/pipepc.v
+L0 12
+R5
+r1
+31
+Z31 !s108 1495636689.619000
+Z32 !s107 D:/Quartus II/projects/pipeCPU/pipepc.v|
+Z33 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipepc.v|
+R9
+R10
+!i10b 1
+!s100 eH:Rm894L`dlImbMS^]YB1
+!s85 0
+!s101 -O0
+vdivide_inst
+I4=156ol2oAFl^eKH0UEfL3
+VMCJ:zZ8n85G53[;Em9D?A2
+R1
+R17
+R23
+R24
+L0 66
+R5
+r1
+31
+R25
+R26
+R27
+R9
+R10
+!i10b 1
+!s100 [YjaRna]LQ;3_UNJnTW[J3
+!s85 0
+!s101 -O0
+vequ
+ID5ETn01j^ORlNI?a<D[3l0
+VO91^BKHNLzI>DNXRVjn>Z2
+R1
+R17
+R23
+R24
+L0 132
+R5
+r1
+31
+R25
+R26
+R27
+R9
+R10
+!i10b 1
+!s100 U3z`WPK:Ra3lGa6;Yj82z1
+!s85 0
+!s101 -O0
+vfw
+IC1]mFi>6iJY7cZLaLhUbQ2
+Ve6jjV0iCN:V`[Dh_9JU963
+R1
+R17
+R23
+R24
+L0 79
+R5
+r1
+31
+R25
+R26
+R27
+R9
+R10
+!i10b 1
+!s100 MV]6flYDRD40e1o?Vc3;S3
+!s85 0
+!s101 -O0
+vinstmem
+ImV9@U0e_Mga[^L63X_Wc00
+V:OZFi@WVB=9GAl^HMSGO01
+R1
+R11
+R12
+R13
+L0 23
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 II[K>IX=WE;MJFd04^EM^0
+!s85 0
+!s101 -O0
+vio_in
+IjXYmCA82Yk^__a2X^5HMn1
+VW_4]72@cmAC;?TLZ8CS>`1
+R1
+Z34 w1495615690
+Z35 8D:/Quartus II/projects/pipeCPU/pipemem.v
+Z36 FD:/Quartus II/projects/pipeCPU/pipemem.v
+L0 22
+R5
+r1
+31
+Z37 !s108 1495636720.512000
+Z38 !s107 D:/Quartus II/projects/pipeCPU/pipemem.v|
+Z39 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipemem.v|
+R9
+R10
+!i10b 1
+!s100 =0WX<oKT55zzH5NHbeU^52
+!s85 0
+!s101 -O0
+vio_out
+I]2RQ[bCTO`JhT]8[ETjb:1
+VCC4>c5eOV8cLd4S94fii01
+R1
+R34
+R35
+R36
+L0 42
+R5
+r1
+31
+R37
+R38
+R39
+R9
+R10
+!i10b 1
+!s100 Yj>jNhHof6Oa?@XWnaczb2
+!s85 0
+!s101 -O0
+vlpm_ram_dq_dram
+I;89J3PK5d<:dV7VBa`Pz<3
+V;^>UgMFOjF@EZ@A<NMAW`0
+R1
+Z40 w1495593017
+8D:/Quartus II/projects/pipeCPU/lpm_ram_dq_dram.v
+FD:/Quartus II/projects/pipeCPU/lpm_ram_dq_dram.v
+L0 39
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 EX_=3lIP911TT6Un54lbZ1
+!s85 0
+!s108 1495636687.947000
+!s107 D:/Quartus II/projects/pipeCPU/lpm_ram_dq_dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/lpm_ram_dq_dram.v|
+!s101 -O0
+vlpm_rom_irom
+Io=`c^jPL0l>[6CBXKaKj@0
+V6I?:oUA0HYdli42?U:6:L0
+R1
+R40
+8D:/Quartus II/projects/pipeCPU/lpm_rom_irom.v
+FD:/Quartus II/projects/pipeCPU/lpm_rom_irom.v
+L0 39
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 hXY>Rl?@F8hjcaPG<012X0
+!s85 0
+!s108 1495636687.666000
+!s107 D:/Quartus II/projects/pipeCPU/lpm_rom_irom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/lpm_rom_irom.v|
+!s101 -O0
+vmux2x32
+IYOPAHdjA81QM?3MZTzI_92
+V_8o=]o8CzEDeX@^n?a@zP3
+R1
+Z41 w1494775819
+8D:/Quartus II/projects/pipeCPU/mux2x32.v
+FD:/Quartus II/projects/pipeCPU/mux2x32.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 099So=F?GAJMJH[^?Wi=z1
+!s85 0
+!s108 1495636689.291000
+!s107 D:/Quartus II/projects/pipeCPU/mux2x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/mux2x32.v|
+!s101 -O0
+vmux2x5
+IA><dkKM_9GdPFh`AX^PlE0
+Vah3g>_]Y^Qz2GXD7HR^<<3
+R1
+R41
+8D:/Quartus II/projects/pipeCPU/mux2x5.v
+FD:/Quartus II/projects/pipeCPU/mux2x5.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 a2d?JTb7kIBfb;CXlk=5<2
+!s85 0
+!s108 1495636689.463000
+!s107 D:/Quartus II/projects/pipeCPU/mux2x5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/mux2x5.v|
+!s101 -O0
+vmux4x32
+I<ai_cMUXgZ1W]Jz3]E<W_1
+VM:hYY`k:C]4^:^k7d8C]M0
+R1
+w1252998688
+8D:/Quartus II/projects/pipeCPU/mux4x32.v
+FD:/Quartus II/projects/pipeCPU/mux4x32.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 oF>VVlbSRT4_9]76B7c?12
+!s85 0
+!s108 1495636688.900000
+!s107 D:/Quartus II/projects/pipeCPU/mux4x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/mux4x32.v|
+!s101 -O0
+vpipe_cu
+I>>51FCeU_gn=N55QFLn:k0
+Vcz>JdPkl3^Sf15C>`jkRf3
+R1
+w1495380600
+8D:/Quartus II/projects/pipeCPU/pipe_cu.v
+FD:/Quartus II/projects/pipeCPU/pipe_cu.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 1aMN7K6Jz8bgJ@KbN>Qjn3
+!s85 0
+!s108 1495636691.216000
+!s107 D:/Quartus II/projects/pipeCPU/pipe_cu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipe_cu.v|
+!s101 -O0
+vpipeCPU
+I3^XioH370kC5F]dIiGR4C3
+V>1^C:LFWITER`;?[741e91
+R1
+R17
+R18
+R19
+L0 104
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R10
+npipe@c@p@u
+!i10b 1
+!s100 TD1HQ?eJ5iSKnUDRcHSjV0
+!s85 0
+!s101 -O0
+vpipeCPU_vlg_tst
+!i10b 1
+!s100 FZY61UEV][mb>[V0U^;g72
+I3jSkRmJb^L@e@=`]IHPNe0
+VYdW[6h[jhD1TM5HlfIM`d3
+R1
+w1495543335
+8D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt
+FD:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt
+L0 28
+R5
+r1
+!s85 0
+31
+!s108 1495636721.074000
+!s107 D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU/simulation/modelsim|D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt|
+!s101 -O0
+R9
+!s92 -vlog01compat -work work {+incdir+D:/Quartus II/projects/pipeCPU/simulation/modelsim} -O0
+npipe@c@p@u_vlg_tst
+vpipedereg
+I9S^ZP`n6TKUNOGfLB1zFT3
+V82R<BQdcWClP<Dka=e]WP3
+R1
+w1495633736
+8D:/Quartus II/projects/pipeCPU/pipedereg.v
+FD:/Quartus II/projects/pipeCPU/pipedereg.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 9CeTC;cj[S5A4zGT=GNz13
+!s85 0
+!s108 1495636691.341000
+!s107 D:/Quartus II/projects/pipeCPU/pipedereg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipedereg.v|
+!s101 -O0
+vpipeemreg
+IBSKAZ:_:Q9h`z@O9i4JcS0
+V3I1jGXGA<KJjF8Fd=FNC`3
+R1
+w1495437300
+8D:/Quartus II/projects/pipeCPU/pipeemreg.v
+FD:/Quartus II/projects/pipeCPU/pipeemreg.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 XXdk;`efB<Dj7MLGaOVmM3
+!s85 0
+!s108 1495636694.544000
+!s107 D:/Quartus II/projects/pipeCPU/pipeemreg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipeemreg.v|
+!s101 -O0
+vpipeexe
+Ijf<RFNbUR>H;`^RSdll]O0
+V5lbDPf9VM[ZRRDLBF1OUH1
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 gE25B1OPQl0<I1dkn]lzF0
+!s85 0
+!s101 -O0
+vpipeid
+I^ei3B>ij5TJazmO9O>JZj0
+V=d:iIU_WY>3D<>PmQ^N6f0
+R1
+R17
+R23
+R24
+L0 1
+R5
+r1
+31
+R25
+R26
+R27
+R9
+R10
+!i10b 1
+!s100 WSaRF6dQTWdh<Wh3ahl>E1
+!s85 0
+!s101 -O0
+vpipeif
+IMFgXMSLJho]fdKkm9H>o[3
+V9V7[=Qi_@2JD6jP@kPUo>0
+R1
+R11
+R12
+R13
+L0 1
+R5
+r1
+31
+R14
+R15
+R16
+R9
+R10
+!i10b 1
+!s100 0OY8NkWGJ`85o@BUCMW711
+!s85 0
+!s101 -O0
+vpipeir
+I<V4C29A7=izEFACb:<U<_3
+VXAID;`^C?92>R1?9o><oA0
+R1
+w1495630343
+8D:/Quartus II/projects/pipeCPU/pipeir.v
+FD:/Quartus II/projects/pipeCPU/pipeir.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 KbXW;Z1<]NK=5HzOf53=P0
+!s85 0
+!s108 1495636690.434000
+!s107 D:/Quartus II/projects/pipeCPU/pipeir.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipeir.v|
+!s101 -O0
+vpipelined_computer
+I3eU=h>>IH:91Xm_P[?gXz2
+VcGVlk_jbHZ=AjKoJh;c333
+R1
+R17
+R18
+R19
+L0 1
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R10
+!i10b 1
+!s100 A^o3J=QlG`6mQU5VRgRGS1
+!s85 0
+!s101 -O0
+vpipemem
+IEEd0XL5@@HiK0oi22E00]2
+VdGYI8h?_UR;TW@5bJ;1^]2
+R1
+R34
+R35
+R36
+L0 1
+R5
+r1
+31
+R37
+R38
+R39
+R9
+R10
+!i10b 1
+!s100 IdABZeWE<`SM5BakWCdmB2
+!s85 0
+!s101 -O0
+vpipemwreg
+I4_XSX1@HajeSLC>AMc86C0
+VId]69z>dOce;D[VcEm6@=3
+R1
+w1495440772
+8D:/Quartus II/projects/pipeCPU/pipemwreg.v
+FD:/Quartus II/projects/pipeCPU/pipemwreg.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 dAIC7TTZNdS0:f^ZhSB`a3
+!s85 0
+!s108 1495636720.918000
+!s107 D:/Quartus II/projects/pipeCPU/pipemwreg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/pipemwreg.v|
+!s101 -O0
+vpipepc
+IEjRZ5Z]=eaIma?j_8abWm0
+V?TeI]2Q7YZDQM4R_aiind1
+R1
+R28
+R29
+R30
+L0 1
+R5
+r1
+31
+R31
+R32
+R33
+R9
+R10
+!i10b 1
+!s100 W7zf]XmhaV60EV=>:VDfc2
+!s85 0
+!s101 -O0
+vregfile
+IRE<G=PD]oF^T[KijUf1ec0
+VHL?YD<z4Tlb1gm`0^XW@D2
+R1
+w1495442827
+8D:/Quartus II/projects/pipeCPU/regfile.v
+FD:/Quartus II/projects/pipeCPU/regfile.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 i[a_3iba?2EH5aP;_;5GS0
+!s85 0
+!s108 1495636688.728000
+!s107 D:/Quartus II/projects/pipeCPU/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU|D:/Quartus II/projects/pipeCPU/regfile.v|
+!s101 -O0

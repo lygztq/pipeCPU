@@ -1,0 +1,88 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "05/23/2017 20:37:12"
+                                                                                
+// Verilog Test Bench template for design : pipeCPU
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module pipeCPU_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg clock;
+reg [3:0] op1;
+reg [3:0] op2;
+reg resetn;
+// wires                                               
+wire [6:0]  hex1;
+wire [6:0]  hex2;
+wire [6:0]  hex3;
+wire [6:0]  hex4;
+wire [6:0]  hex5;
+wire [6:0]  hex6;
+wire [6:0]  hex7;
+wire [6:0]  hex8;
+wire [7:0]  inputLight;
+wire [4:0]  outputLight;
+wire testlight;
+
+// assign statements (if any)                          
+pipeCPU i1 (
+// port map - connection between master ports and signals/registers   
+	.clock(clock),
+	.hex1(hex1),
+	.hex2(hex2),
+	.hex3(hex3),
+	.hex4(hex4),
+	.hex5(hex5),
+	.hex6(hex6),
+	.hex7(hex7),
+	.hex8(hex8),
+	.inputLight(inputLight),
+	.op1(op1),
+	.op2(op2),
+	.outputLight(outputLight),
+	.resetn(resetn),
+	.testlight(testlight)
+);
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+                                                       
+// --> end                                             
+$display("Running testbench");                       
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
+endmodule
+

@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Quartus II\projects\pipeCPU\simulation\modelsim
+vpipeCPU
+IiZH`A]Wg;RE>e^KXcNBjj0
+V>1^C:LFWITER`;?[741e91
+Z1 dD:\Quartus II\projects\pipeCPU\simulation\modelsim
+w1495545476
+8pipeCPU_fast.vo
+FpipeCPU_fast.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+npipe@c@p@u
+!i10b 1
+!s100 Pj0F6SRU3P_LbIA8;cAE60
+!s85 0
+!s108 1495547072.796000
+!s107 pipeCPU_fast.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|pipeCPU_fast.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vpipeCPU_vlg_tst
+!i10b 1
+!s100 FZY61UEV][mb>[V0U^;g72
+I3jSkRmJb^L@e@=`]IHPNe0
+VYdW[6h[jhD1TM5HlfIM`d3
+R1
+w1495543335
+8D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt
+FD:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1495547073.734000
+!s107 D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus II/projects/pipeCPU/simulation/modelsim|D:/Quartus II/projects/pipeCPU/simulation/modelsim/pipeCPU.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work {+incdir+D:/Quartus II/projects/pipeCPU/simulation/modelsim} -O0
+npipe@c@p@u_vlg_tst
